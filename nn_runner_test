@@ -1,4 +1,3 @@
 #!/bin/sh
 
-THISDIR=$(dirname $(realpath $0))
-nn_runner $THIS_DIR/mobilenet_v2_rgb_224_int8.mud ${THIS_DIR}/cat_224.jpg $1
+nn_runner ./mobilenet_v2_rgb_224_int8.mud ./cat_224.jpg $1
